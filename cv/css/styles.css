@@ -464,12 +464,12 @@ p {
 @media (min-width:992px) {
   #content-body {
     margin-top: 45px;
-    margin-bottom: 90px;
+    margin-bottom: 25%;
   }
 }
 @media (min-width: 1200px) {
   #content-body {
-    margin-bottom: 200px;
+    margin-bottom: 30%;
   }
 }
 .header-buttons {
