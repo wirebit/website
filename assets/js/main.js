@@ -1,9 +1,3 @@
-/*
-	Venue by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
-
 (function($) {
 
 	skel.breakpoints({

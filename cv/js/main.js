@@ -6,7 +6,9 @@
 $(document).ready(function(){  
 
   //Smooth scrool
-  $("html").niceScroll({styler:"fb",cursorcolor:"#000"});
+  if (navigator.appVersion.indexOf("Mac") === -1) {
+    $("html").niceScroll({styler:"fb",cursorcolor:"#000"});
+  }
 
   //Side menu - Open
   $('.side-menu-open').on('mouseenter', function () {
