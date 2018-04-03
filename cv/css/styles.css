@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 [Main Theme Styles]
 
-Project:	Vertica - Retina Ready Resume / CV & Portfolio
+Project:	Vertica - Retina Ready Resume / CV & team
 Author:	Diego Pereira @ DotRex
 Version:	1.5.5
 Last change:	18/01/17 
@@ -20,7 +20,7 @@ Primary use:	CV / Resume
 8. Vertical Timeline
 9. Section: Education and Work Experience
 10. Section: Skills
-11. Section: Portfolio
+11. Section: team
 12. Section: Contact
 13. Section: Thank you
 14. Footer
@@ -668,12 +668,12 @@ p {
   background: #ce5f5f;
 }
 /* ==========================================================
-! 11. Section: Portfolio
+! 11. Section: team
 ========================================================== */
-.portfolio .line-content {
+.team .line-content {
   height: 255px;
 }
-.portfolio-item {
+.team-item {
   position: relative;
   cursor: crosshair!important;
   width: 200px;
@@ -681,24 +681,24 @@ p {
   overflow: hidden;
   background: none;
 }
-.portfolio-item:hover img {
+.team-item:hover img {
   -webkit-transform: scale(1.2) rotate(-5deg);
   -o-transform: scale(1.2) rotate(-5deg);
   transform: scale(1.2) rotate(-5deg);
 }
-.portfolio-item a {
+.team-item a {
   background: none;
   display: block;
   cursor: crosshair!important;
 }
-.portfolio-item img {
+.team-item img {
   width: 100%;
   border-radius: 0;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.portfolio-item .hover-bg-wrapper {
+.team-item .hover-bg-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -708,7 +708,7 @@ p {
   z-index: 3;
   display: none;
 }
-.portfolio-item .hover-bg {
+.team-item .hover-bg {
   background: #02776f;
   opacity: 0.9;
   width: 100%;
@@ -717,7 +717,7 @@ p {
   min-height: 10px;
   z-index: 3;
 }
-.portfolio-item .hover {
+.team-item .hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -727,14 +727,14 @@ p {
   display: none;
   padding: 20px;
 }
-.portfolio-item .hover p {
+.team-item .hover p {
   color: #fff;
   text-align: center;
 }
-.portfolio-item .hover p.zoomi {
+.team-item .hover p.zoomi {
   font-size: 56px;
 }
-.portfolio-item .hover p.portfolio-item-title {
+.team-item .hover p.team-item-title {
   font-size: 12px;
   text-transform: uppercase;
   padding-left: 5px;
@@ -1009,7 +1009,7 @@ textarea.form-control {
 .mac.gecko #skills .line-content {
   min-height: 170px;
 }
-.mac.gecko #portfolio .line-content {
+.mac.gecko #team .line-content {
   height: 280px;
 }
 input:-webkit-autofill,
