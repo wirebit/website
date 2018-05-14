@@ -885,6 +885,15 @@
 		position: relative;
 		padding: 3em 0em 4em 0em;
 		text-align: center;
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			img {
+				height: 3em;
+				margin-left: 1em;
+			}
+		}
 	}
 
 /* Portfolio */
